@@ -1,0 +1,11 @@
+server:
+  port: 1010
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'features'
+
+client:
+  mr-analyst-url: http://localhost:1011

@@ -1,0 +1,5 @@
+dependencies {
+    compile "org.springframework.boot:spring-boot-configuration-processor"
+    compile group: 'org.fusesource.jansi', name: 'jansi', version: '1.18'
+
+}

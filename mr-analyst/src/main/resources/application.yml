@@ -1,0 +1,11 @@
+server:
+  port: 1011
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'features'
+
+client:
+  police-url: http://localhost:1012

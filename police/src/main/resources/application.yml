@@ -1,0 +1,8 @@
+server:
+  port: 1012
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'features'

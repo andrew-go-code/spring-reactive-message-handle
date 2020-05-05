@@ -1,0 +1,14 @@
+server:
+  port: 1013
+
+dashboard:
+  services:
+    message-center:
+      url: http://localhost:1010/actuator/features
+      name: message-center
+    mr-analyst:
+      url: http://localhost:1011/actuator/features
+      name: mr-analyst
+    police:
+      url: http://localhost:1012/actuator/features
+      name: police
